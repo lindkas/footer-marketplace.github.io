@@ -1,1 +1,1 @@
-# projectfooter-marketplace.github.io
+# footer-marketplace.github.io
