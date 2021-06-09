@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #dd2d78;
+}
+
+.main-cont{
+    background-color: #dd2d78;
+    font-family: arial;
+}
+
+.cont-up{
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.containers{
+    width: 25%;
+    font-weight: bold;
+    float: left;
+}
+
+.containers h3{
+    margin-bottom: 10px;
+    color: #fcd660;
+}
+
+/*set awal*/
+.container{
+    text-align: center;
+}
+
+/*set awal*/
+.container h1{
+    color: #fff;
+}
+
+.p-us{
+    margin-bottom: 10px;
+}
+
+.p-us a{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.p-us a:hover{
+    text-decoration: underline;
+    Opacity: 1;
+}
+
+.icon-sosmed{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 15px;
+    opacity: 0.7;
+}
+
+.sosmed a:hover{
+    opacity: 1;
+}
+
+/*set awal*/
+.container p{
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.copyright{
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-family: arial;
+    font-size: 13px;
+    border-top: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+/*Tablet*/
+@media(max-width: 1000px){
+    .container{
+        flex: auto;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .containers{
+        flex: auto;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+
+/*Smartphone*/
+@media(max-width: 670px){
+    .containers h3{
+        display: none;
+    }
+
+    .p-us a{
+        display: none;
+    }
+}
